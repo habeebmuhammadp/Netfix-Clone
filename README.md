@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 
 # How To Work
 
--Use Better Internet that is connected with a VPN to work Properly
+- Use Better Internet that is connected with a VPN to work Properly
