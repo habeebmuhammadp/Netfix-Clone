@@ -17,7 +17,8 @@ function TitleCards({title,category}) {
 
   const handleWheel=(event)=>{
     event.preventDefault();
-    cardsRef.current.scrollLeft+=event.deltaY;
+    const scrollAmount = event.deltaY || event.deltaX;
+    cardsRef.current.scrollLeft +=scrollAmount;
   }
 
   useEffect(()=>{
